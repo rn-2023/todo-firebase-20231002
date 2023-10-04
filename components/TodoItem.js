@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { Text, View, Pressable } from 'react-native';
 import MaterialIcons from '@expo/vector-icons/MaterialIcons';
 import Entypo from '@expo/vector-icons/Entypo';
-import { ref, update, remove } from 'firebase/database';
+import { ref, update, remove, child } from 'firebase/database';
 import { db, TODOS_REF } from '../firebase/Config';
 import styles from '../style/style';
 

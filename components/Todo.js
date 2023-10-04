@@ -5,7 +5,7 @@ import { db, TODOS_REF } from './firebase/Config';
 import { TodoItem } from './components/TodoItem';
 import styles from './style/style';
 
-export default function App() {
+export default function Todo() {
 
   const [newTodo, setNewTodo] = useState('');
   const [todos, setTodos] = useState({});
