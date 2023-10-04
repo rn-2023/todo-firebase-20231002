@@ -6,13 +6,13 @@ import { initializeAuth, getReactNativePersistence } from 'firebase/auth';
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyBc1cI9b6qAM0n3rpNndv4GmXE1woyMe-8",
-  authDomain: "todolist-18f1f.firebaseapp.com",
-  databaseURL: "https://todolist-18f1f-default-rtdb.europe-west1.firebasedatabase.app",
-  projectId: "todolist-18f1f",
-  storageBucket: "todolist-18f1f.appspot.com",
-  messagingSenderId: "103499212103",
-  appId: "1:103499212103:web:8063b90bfe20eb1ee21862"
+  apiKey: "",
+  authDomain: "",
+  databaseURL: "",
+  projectId: "",
+  storageBucket: "",
+  messagingSenderId: "",
+  appId: ""
 };
 
 // Initialize Firebase
